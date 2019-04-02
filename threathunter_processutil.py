@@ -10,7 +10,6 @@ from datetime import datetime
 from common import *
 
 # Carbon Black
-from cbapi.example_helpers import build_cli_parser, get_cb_threathunter_object
 from cbapi.psc.threathunter import CbThreatHunterAPI, Process, Event, Tree
 from cbapi.errors import *
 from solrq import Range, Value
