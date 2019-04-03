@@ -1,5 +1,8 @@
 #!/usr/bin/env python
-
+"""
+Requires a valid credentials.psc, the api credential file containing a Cb threathunter server URL and corresponding API token. 
+API token should be in the format of TOKEN/ConnecterID.
+"""
 import argparse
 import csv
 import os
